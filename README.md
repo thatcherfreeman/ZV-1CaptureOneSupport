@@ -4,7 +4,7 @@ The Sony ZV-1 creates RAW files that Capture One seems to be reluctant to suppor
 
 ## Installation
 
-1. Install (exiftool)[https://exiftool.org/]
+1. Install [exiftool](https://exiftool.org/)
     a. If using homebrew, you can alternatively use `brew install exiftool`
     b. Run `exiftool` in a terminal to check that your installation worked.
 2. Copy the `zv1script.sh` file to your computer somewhere.
