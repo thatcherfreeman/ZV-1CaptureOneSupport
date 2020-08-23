@@ -7,5 +7,5 @@ if [ "$#" -eq 0 ]; then
     echo "         \$./zv1script.sh ~/Pictures/session"
     exit 1
 fi
-exiftool -Model=DSC-RX100M7 -overwrite_original_in_place "$1"
+exiftool -IFD0:Model=DSC-RX100M7 -overwrite_original_in_place "$1"
 
